@@ -1,0 +1,14 @@
+
+<mark> </mark> (Highlighted text)
+
+Elemen <mark> ini digunakan ketika terdapat sebuah teks yang memiliki peran penting (background kuning), biasanya teks tersebut merupakan bagian yang paling relevan atau penting dalam sebuah konteks kalimat.
+
+contoh :
+
+<p>
+kejahatan terjadi bukan hanya karna ada niat dari pelakunya, tapi juga karna ada 
+<mark>
+adanya kesempatan
+</mark>
+maka kita perlu waspasda
+</p>

@@ -1,0 +1,11 @@
+
+<cite> </cite> (Citation)
+
+
+Selain sebuah atribut, <cite> juga merupakan sebuah elemen yang digunakan untuk sebuah rujukan pada sebuah dokumen, contohnya sebuah buku, majalah, artikel dan lainnya.
+
+contoh :
+
+<p>untuk informasi lebih detail bisa dikunjungi di <cite><a href="www.info.com"> info </a> </cite></p>
+
+

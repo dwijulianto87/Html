@@ -1,0 +1,55 @@
+
+<ul></ul>
+
+pada html ada 3 tipe list :
+
+1. <ul></ul> -> Unordered lists : daftar yang ditampilkan tidak memiliki urutan. 
+
+2. <ol></ol> -> Ordered lists : daftar yang ditampilkan secara terurut.
+
+Berikut nilai - nilai yang dapat digunakan pada atribut type pada elemen <ol>:
+
+1 -> Menggunakan angka dalam urutan item (default)
+
+a -> Menggunakan huruf kecil dalam urutan item
+
+A -> Menggunakan huruf besar dalam urutan item
+
+i -> Menggunakan huruf romawi kecil dalam urutan item
+
+I -> Menggunakan huruf romawi besar dalam urutan item
+
+start="7" -> list akan dimulai dengan nilai urutan ke-7 ke nilai+ 
+
+reversed = "7" -> list akan dimulai dengan nilai urutan ke-7 ke nilai-
+
+
+3. Description lists : daftar yang terbuat dari beberapa istilah diikuti dengan deskripsi dari istilah tersebut.
+
+
+contoh :
+
+<ul>
+<li> item 1 </li>
+<li> item 2 </li>
+</ul>
+
+
+<ol  type = "a">
+<li> item 1 </li>
+<li> item 2 </li>
+</ol>
+
+
+<ol  type = "I">
+<li> item 1 </li>
+	<ol  type = "1">
+	   <li> sub I.1 </li>
+	   <li> sub I.2 </li>
+	<ol>
+<li> item 2 </li>
+	<ol  type = "1">
+	   <li> sub II.1 </li>
+	   <li> sub II.2 </li>
+	<ol>
+</ol>

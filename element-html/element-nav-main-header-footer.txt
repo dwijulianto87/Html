@@ -1,0 +1,44 @@
+
+
+<main> </main>
+-> Element <main> digunakan untuk menampung/mewadahi konten utama (dominan) dalam <body>. Konten main dapat terdiri dari banyak section, ataupun artikel, atau konten apapun di dalam elemen main, selama termasuk konten utama yang dimiliki oleh website.
+
+
+<nav> </nav>
+-> Elemen <nav> digunakan untuk menampung sebuah navigasi yang sifatnya penting (major), contohnya navigasi utama pada sebuah website.
+
+
+<header> </header>
+<footer> </footer> 
+-> Sebuah header dan footer utama yang muncul pada awal dan akhir di sebuah halaman <body>. 
+-> Header digunakan sebagai pengantar atau pembuka konten dalam sebuah elemen <article> atau <section>. 
+-> Footer digunakan sebagai catatan kaki pada sebuah elemen <article> atau <section>.
+
+
+contoh :
+
+<body>
+<nav>
+   <ul>
+       <li><a href="#>menu 1</a></li>
+       <li><a href="#">menu 2</a></li>
+       <li><a href="#">menu 3</a></li>
+   </ul>
+</nav>
+    <header>
+        <!-- Konten header website -->
+    </header>
+    <main>
+        <section>
+            <article>
+                <p>Sebuah article</p>
+            </article>
+        </section>
+        <article>
+            <p>Sebuah article lain</p>
+        </article>
+    </main>
+    <footer>
+        <!-- Konten footer website -->
+    </footer>
+</body>

@@ -1,0 +1,41 @@
+
+<img>
+
+
+Pada HTML untuk menampilkan sebuah gambar kita bisa menggunakan tag <img>. Berbeda dengan elemen lain, elemen <img> tidak menuliskan konten di antara tag pembuka dan tag penutup. Tetapi untuk menetapkan gambar yang ditampilkan kita gunakan sebuah atribut. 
+
+Contohnya : 
+
+
+<img src="image/image.png" alt="image">
+
+
+Jenis format gambar :
+
+1. Graphics Interchange Format (.gif) 
+-> Dapat digunakan untuk gambar animasi.
+Ukuran file biasanya kecil.
+Kualitas gambar terbatas.
+
+2. Joint Photographic Expert Group image (.jpg, .jpeg, .jfif, .pjpeg, .pjp)
+->Kualitas text pada gambar dapat menjadi buruk.
+Ukuran file lumayan kecil.
+Pada website biasanya digunakan untuk gambar yang tidak banyak text.
+
+3. Portable Network Graphics (.png)
+-> Text lebih bisa terbaca dibandingkan jenis Jpeg.
+Ukuran file dapat menjadi besar sehingga mengurangi kecepatan memuat situs.
+
+4. WebP (.webp)
+-> Dibandingkan dengan gambar berkualitas sama pada jpeg atau png, ukuran file pada webp dapat menjadi lebih kecil.
+Namun tidak semua web browser dapat membaca webp.
+
+5. Scalable Vector Graphics (.svg)
+-> Kualitas gambar terjaga dan ukuran file kecil.
+Namun tidak cocok untuk gambar yang terlalu kompleks seperti foto.
+Pada website biasanya digunakan untuk logo atau icon.
+
+
+
+
+

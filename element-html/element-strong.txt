@@ -1,0 +1,11 @@
+
+<strong> </strong> (Important text)
+
+
+elemen <strong> untuk menunjukan bagian kata yang perlu kita tekankan (cetak tebal). Elemen ini menunjukan stress emphasis atau konten/kata yang perlu mendapatkan penekanan atau perhatian khusus.
+
+contoh :
+
+<p><strong>keluarga</strong> adalah harta yang paling berharga </p>
+
+

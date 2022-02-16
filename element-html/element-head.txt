@@ -1,0 +1,13 @@
+
+<head> </head>
+
+
+Elemen <head> pada berkas HTML berfungsi sebagai tempat disimpannya informasi dari dokumen HTML. Informasi dapat berupa elemen meta, style, atau link. Dan juga pada elemen ini judul dari dokumen HTML didefinisikan dengan menggunakan elemen <title>. Berikut contoh elemen yang berada pada konten head:
+
+<title> </title> (untuk memberikan title halaman web di tab)
+<style> </style> (untuk memberikan style css)
+<base> </base>  
+<link> </link> (untuk memberikan link suatu file/resource)
+<meta> </meta> 
+<script> </script>
+<noscript> </noscript>

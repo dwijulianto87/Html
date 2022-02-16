@@ -1,0 +1,10 @@
+<blockquote> </blockquote> -> teks terformat
+
+Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita dapat gunakan format long quotations dengan menggunakan tags <blockquote>. Konten di dalam elemen <blockquote> ini dapat berupa sebuah paragraf, heading, ataupun list. 
+
+
+contoh :
+
+<blockquote cite="https://id.wikipedia.org/wiki/sumber_situs_web">
+   <p>banyak tempat untuk belajar tentang perkembangan tegnologi </p>
+</blockquote>

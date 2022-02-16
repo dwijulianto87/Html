@@ -1,0 +1,19 @@
+
+
+<article> </article>
+
+
+
+Elemen <article> bertindak sebagai container untuk independen konten pada sebuah halaman, artinya konten utuh yang tidak terkait dengan konten lain. Bisa saja konten yang dimasud berupa artikel blog, komentar, forum post, dan konten lainnya.
+
+contoh :
+
+
+<article>
+   <h2></h2>
+   <img src="">
+   <p></p>
+</article>
+
+
+

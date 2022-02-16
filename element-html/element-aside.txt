@@ -1,0 +1,20 @@
+
+
+<aside> </aside>
+
+Ketika elemen ini ditempatkan di dalam elemen <article>, pada elemen ini dapat berisikan informasi yang berhubungan dengan artikel tersebut, tetapi bukan bagian dari konten artikelnya itu sendiri (dipisahkan dari konten utama). 
+Ketika elemen ini ditempatkan di luar dari elemen <article>, pada elemen ini dapat berisikan informasi yang berhubungan pada keseluruhan halaman.
+
+contoh :
+
+
+<article>
+ <aside>
+   <h2></h2>
+   <img src="">
+   <p></p>
+ </aside>
+</article>
+
+
+

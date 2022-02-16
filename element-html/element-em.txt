@@ -1,0 +1,11 @@
+
+<em> </em> (Emphasized text)
+
+
+elemen <em> untuk menunjukan bagian kata yang perlu kita tekankan(cetak miring). Elemen ini menunjukan stress emphasis atau konten/kata yang perlu mendapatkan penekanan atau perhatian khusus.
+
+contoh :
+
+<p><em>keluarga</em> adalah harta yang paling berharga </p>
+
+

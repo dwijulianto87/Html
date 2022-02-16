@@ -1,0 +1,60 @@
+
+
+form <form> </form> -> element html yang digunakan untuk mengelola data yang di input dari user
+
+1. input <input> -> element untuk memberikan inputan dengan type dibawah ini :
+	type: text, password, radio, checkbox, submit, reset, button
+2. textarea <textarea> </textarea> -> element untuk memberikan inputan text yang lebih panjang :
+3. combobox <select> <option> </option> <option> </option> </select>
+4. button <button> </button>
+	type: submit, reset, button
+5. label <label> </label> -> penanda sebuah element form
+
+
+
+contoh :
+
+<form>
+
+//input type text
+<label for="username">Username: </label>
+<input type="text" id="username">
+
+//input type password
+<label for="password">Password: </label>
+<input type="password" id="password">
+
+//input type radio
+<label>jeniskelamin: </label>
+<input type="radio" id="pria" name="jeniskelamin"> <label for="pria">Pria</label>
+<input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">Wanita</label>
+
+//input type checkbox
+<label>Hobby : </label>
+<input type="checkbox" id="menyanyi"> <label for="menyanyi">Menyanyi</label>
+<input type="checkbox" id="membaca"> <label for="membaca">Membaca</label>
+<input type="checkbox" id="olahraga"> <label for="olahraga">Olahraga</label>
+
+//textarea
+<label for="alamat">Alamat :</label>
+<textarea id="alamat"> </textarea>
+
+//combobox
+<label for="golDarah">Golongan Darah :</label>
+<select>
+	<option>A</option>
+	<option>AB</option>
+	<option>B</option>
+	<option>O</option>
+</select>
+
+//button type submit
+<button type="submit" id="simpan">Simpan</button>
+
+</form>
+
+
+
+
+
+

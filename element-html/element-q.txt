@@ -1,0 +1,11 @@
+
+<q> </q> (Short quotations)
+
+
+elemen <q> untuk menandai sebuah kutipan dalam sebuah teks(tanda kutip). Elemen short quations berbeda dengan <blockquote>. Elemen ini digunakan untuk kutipan pendek yang terletak di dalam baris (inline).
+
+contoh :
+
+<p><q>keluarga</q> adalah harta yang paling berharga </p>
+
+

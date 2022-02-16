@@ -1,0 +1,25 @@
+
+Generic Element adalah tipe elemen umum (generic element) yang bisa kita kustomisasi untuk menggambarkan konten kita dengan tepat
+
+<div> </div>
+-> elemen ini merupakan sebuah wadah (container) yang bersifat umum untuk menampung beberapa konten.
+
+
+<span> </span>
+-> elemen ini digunakan sebagai phrase elements dan tidak terdapat line breaks ketika menggunakannya.
+
+contoh :
+
+<div class ="kontak">
+    <h2>Daftar kontak :</h2>
+	<ul>
+   	   <li>Dwi: <span class="phone">08123xxx</span></li>
+   	   <li>Juli: <span class="phone">08222xxx</span></li>
+   	   <li>Anto: <span class="phone">08333xxx</span></li>
+	</ul>
+</div>
+
+
+
+
+

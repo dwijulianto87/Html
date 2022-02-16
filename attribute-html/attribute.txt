@@ -1,0 +1,116 @@
+
+@ Atribute
+
+Atribute adalah properti yang ada dalam tag pembuka setelah nama element html dan berpasangan key = "value".
+Atribut ini berfungsi memberikan informasi tambahan pada sebuah elemen. Atribut dituliskan pada tag pembuka sebuah elemen setelah nama dari elemennya tersebut ditulis. 
+
+Contohnya:
+
+<h1 id = "idJudul" class = "judul"> Judul Artikel </h1>
+
+contoh diatas merupakan elemen h1 memiliki attribute id dan class
+
+
+# Attribute dan Description
+
+1. accesskey -> Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.
+
+Contohnya:
+
+<button accesskey="s">
+
+
+2. class -> Menentukan satu atau lebih classname untuk sebuah elemen.
+
+Contohnya:
+
+<h1 class = "judul"> Judul Artikel </h1>
+
+
+3. contenteditable -> Menentukan konten dari elemen merupakan konten yang dapat diubah atau tidak.
+
+Contohnya:
+
+<cite contenteditable="true">
+
+
+4. data-* -> Digunakan untuk menyimpan sebuah data pribadi khusus ke halaman atau aplikasi.
+
+Contohnya:
+
+<li data-id="10784">
+
+
+5. dir -> Menentukan arah teks untuk konten pada suatu elemen.
+
+Contohnya:
+
+<p dir="ltr">
+
+
+6. draggable -> Menentukan apakah suatu elemen dapat di-drag atau tidak.
+
+Contohnya:
+
+<img draggable="false">
+
+
+7. dropzone -> Menentukan apakah data yang di-drag adalah data yang disalin, dipindahkan, atau ditautkan saat dijatuhkan.
+
+8. hidden -> Menentukan apakah suatu elemen ditampilkan atau tidak pada browser.
+
+Contohnya:
+
+<p hidden>
+
+
+9. id -> Menetapkan id pada elemen.
+
+Contohnya:
+
+<h1 id = "idJudul">
+
+
+10. lang -> Menentukan bahasa pada konten elemen.
+
+Contohnya:
+
+<p lang="fr">
+
+
+11. spellcheck -> Menentukan apakah elemen harus diperiksa ejaannya dan tata bahasanya atau tidak.
+
+Contohnya:
+
+<p contenteditable spellcheck="false">
+
+
+12. style -> Menentukan styling secara satu baris untuk suatu elemen.
+
+Contohnya:
+
+ <p style="margin: 15px;  text-align: center;">
+
+
+13. tabindex -> Menentukan urutan dari suatu elemen.
+
+Contohnya:
+
+<div tabindex="0">
+
+
+14. title -> Menentukan informasi tambahan tentang suatu elemen.
+
+Contohnya:
+
+<iframe title="Wikipedia page for the CSS language"
+    src="https://en.m.wikipedia.org/wiki/CSS"></iframe>
+
+
+15. translate -> Menentukan apakah konten elemen harus diterjemahkan atau tidak.
+
+Contohnya:
+
+<span translate="no">
+
+

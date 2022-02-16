@@ -1,0 +1,112 @@
+
+<table> </table>
+
+Elemen <table> pada HTML merepresentasikan data tabular atau informasi yang disajikan dalam sebuah tabel. Tabel sendiri disajikan dalam dua dimensi yang terdiri dari baris dan kolom (cell) yang berisikan sebuah data
+
+Tabel pada HTML disusun dari tiga buah elemen, yaitu :
+
+# <table>, <tr> ,dan <td> atau <th>
+
+-> <table> digunakan untuk menandakan dimulai dan diakhirinya sebuah konten tabel dan juga sebagai wadah untuk tabel itu sendiri
+
+-> <tr> digunakan untuk membuat sebuah baris baru
+
+-> <td> atau <th> berada didalam <tr>, sehingga menghasilkan sebuah cell.
+   > <th> kolom attribute(kepala)
+   > <td> kolom value
+
+contoh :
+
+<table>
+   <tr>
+       <th>No</th>
+       <th>Nama</th>
+       <th>No Telp</th>
+   </tr>
+   <tr>
+       <td>1</td>
+       <td>Dwi</td>
+       <td>089999999</td>
+   </tr>
+   <tr>
+       <td>2</td>
+       <td>Juli</td>
+       <td>087777777</td>
+   </tr>
+   <tr>
+       <td>3</td>
+       <td>Anto</td>
+       <td>0855555555</td>
+   </tr>
+</table>
+
+
+#Spanning Cell artinya menjangkau atau merentangkan sebuah ukuran sel lebih dari ukuran yang biasanya. Dengan spanning cell kita dapat membuat sebuah tabel yang lebih kompleks, tetapi akan membuat markup yang kita tulis menjadi sedikit sulit dibaca.
+-> Column Spans (colspan)
+   Untuk merentangkan sebuah kolom (column spanning) kita bisa menggunakan atribut colspan pada elemen <td> atau <th>
+
+
+contoh :
+
+<table border ="1"> // tabel akan memiliki jarak cell border 1
+   <tr>
+       <th>Baris ke 1 Kolom 1</th>
+       <th>Baris ke 1 Kolom 2</th>
+       <th>Baris ke 1 Kolom 3</th>
+   </tr>
+   <tr>
+       <td colspan="2" >Baris ke 2 kolom 1 dan 2</td>
+       <td>Baris ke 2 kolom 3</td>
+   </tr>
+   <tr>
+       <td>Baris ke 3 kolom 1</td>
+       <td colspan="2" >Baris ke 3 kolom 2 dan 3</td>
+   </tr>
+   <tr>
+       <td>Baris ke 4 kolom 1</td>
+       <td>Baris ke 4 kolom 2</td>
+       <td>Baris ke 4 kolom 3</td>
+   </tr>
+</table>
+
+
+-> Row Spans (rowspan)
+   Untuk merentangkan sebuah baris (row spanning) kita dapat menggunakan atribut rowspan. Sama seperti column spanning, tetapi atribut ini akan merentangkan sebuah sel ke bawah.
+
+contoh :
+
+<table border ="1"> // tabel akan memiliki jarak cell border 1
+   <tr>
+       <th rowspan="3">baris ke 1, 2, 3 Kolom 1 </th>
+       <th>baris ke 1 Kolom 2</th>
+   </tr>
+   <tr>
+       <td>Baris ke 2 kolom 2</td>
+   </tr>
+   <tr>
+       <td>Baris ke 3 kolom 2</td>
+   </tr>
+</table>
+
+
+# Element dan attribut dalam tabel
+
+> table -> Menetapkan elemen tabel.
+> td ->Menetapkan sebuah sel dalam baris tabel.
+> colspan=”number” -> Jumlah kolom yang dicakup oleh sel.
+> rowspan=”number” -> Jumlah baris yang dicakup oleh sel.
+> headers=”nama header” -> Mengasosiasikan data sel dengan header.
+> th -> Menetapkan header yang terkait dengan baris atau kolom.
+> colspan=”number” -> Jumlah kolom dicakup oleh header.
+> rowspan=”number” -> Jumlah row yang dicakup oleh header.
+> headers=”nama header” -> Mengasosiasikan header dengan header lain.
+> scope=”row|col|rowgroup|colgroup” -> Mengasosiasikan header dengan baris, kelompok baris, kolom atau kelompok kolom.
+> tr -> Menetapkan sebuah baris pada tabel.
+> caption -> Memberikan judul pada sebuah tabel.
+> col -> Menetapkan sebuah kolom.
+> colgroup -> Menetapkan sebuah kelompok kolom.
+> tbody -> Mengidentifikasi sebuah body dalam tabel.
+> tfoot -> Mengidentifikasi sebuah footer dalam tabel.
+
+thead -> Mengidentifikasi sebuah header dalam tabel.
+

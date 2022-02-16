@@ -1,0 +1,20 @@
+
+<firure> </figure>
+
+
+Elemen ini digunakan untuk merepresentasikan konten tersendiri (self-contained content) seperti ilustrasi, diagram, foto atau bisa juga sebuah baris kode. Banyak hal yang dapat digunakan dalam elemen ini. 
+
+Elemen ini digunakan untuk mengkelompokkan blok konten yang dapat dipindahkan posisinya dari blok utama sebuah dokumen tanpa mempengaruhi arti dari induk dokumen.
+
+Di dalam elemen figure kita dapat menuliskan elemen <figcaption> sebagai sebuah caption (judul) untuk konten tersebut. Berikut contoh penggunaan figure pada sebuah konten gambar.
+
+contoh :
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ea fugit facere perferendis, ducimus velit totam harum provident atque quibusdam doloremque? Culpa, aut laudantium. Quidem temporibus aspernatur neque veniam aliquam.</p>
+<figure>
+   <img src="img/dwi.jpg" alt="Dwi julianto" width="200px">
+   <figcaption>Dwi julianto</figcaption>
+</figure>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ad omnis magni perferendis sint itaque officia id. Enim, ipsa. Fuga modi deserunt fugit voluptate magni repellat est, maxime harum voluptatibus.</p>
+
+

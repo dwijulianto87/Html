@@ -1,0 +1,23 @@
+
+<pre> </pre> (Preformatted text)
+
+
+<pre> adalah elemen yang dapat kita gunakan untuk menampilkan konten sesuai yang kita tulis pada text editor
+
+contoh :
+
+<pre>
+Aku ingin jadi merpati
+Terbat di langit yang damai
+Bernyanyi-nyanyi tentang masa depan
+
+Aku ingin jadi rembulan
+Turun ke bumi
+Membawa cahaya kehidupan
+
+Aku ingin jadi insan teladan
+Saling berbagi rasa
+Tanpa belenggu kekerasan
+
+Banda Aceh, Agustus 2006
+</pre>

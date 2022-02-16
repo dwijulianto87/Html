@@ -1,0 +1,15 @@
+
+<br> </br> (Line Break)
+
+baris baru
+
+contoh :
+
+<p>
+kejahatan terjadi bukan hanya karna ada niat dari pelakunya, tapi juga karna ada 
+<br>
+<mark>
+adanya kesempatan
+</mark>
+maka kita perlu waspasda
+</p>

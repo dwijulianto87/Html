@@ -1,0 +1,25 @@
+
+
+<section> </section>
+
+Sebuah elemen yang memiliki kesamaan konten dan memiliki sebuah heading di dalamnya dapat dikelompokkan dengan menggunakan elemen <section>. Dengan begitu elemen ini dapat digunakan pada sebuah elemen <article> yang memiliki konten panjang dan berpotensi untuk dikelompokkan.
+
+contoh :
+
+
+<article>
+  <section>
+    <h2></h2>
+    <img src="">
+    <p></p>
+  </section>
+
+  <section>
+    <h2></h2>
+    <img src="">
+    <p></p>
+  </section>
+</article>
+
+
+
